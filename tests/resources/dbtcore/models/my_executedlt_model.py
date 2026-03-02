@@ -1,7 +1,8 @@
 import dlt
 
 @dlt.resource(
-    columns={"event_tstamp": {"data_type": "timestamp", "precision": 3}
+    columns={
+        "event_tstamp": {"data_type": "timestamp", "precision": 3},
     },
     primary_key="event_id",
 )
